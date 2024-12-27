@@ -28,7 +28,7 @@ jobs:
             - name: Install dependencies
               run: |
                python -m pip install --upgrade pip
-               pip install -r requirements.tst
+               pip install -r requirements.txt
 
 
             - name: Train the model (Online Training)
