@@ -6,6 +6,7 @@ import pickle
 
 
 def train_and_save_model():
+    #print(pickle.format_version)
     data = pd.read_csv('https://raw.githubusercontent.com/selva86/datasets/master/BostonHousing.csv')
     X = data.drop(columns=["medv"])
     y = data['medv']
