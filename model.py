@@ -20,7 +20,7 @@ def train_and_save_model():
         pickle.dump(model, file)
 
 
-    print('pick;e file saved. ')   
+    print('pickle file saved. ')   
 
 if __name__  == "__main__":
     train_and_save_model()     
